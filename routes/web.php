@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     // parameter
     $col = 4;
-    $page = 3;
+    $page = 4;
     $spreadsheetID = '1FHXLTwnAQRUpB_Gty4qv-eK8kBVRQXnhUYbLXlCCo5s';
 
     $url = 'https://spreadsheets.google.com/feeds/cells/'.$spreadsheetID.'/'.$page.'/public/full?alt=json';
